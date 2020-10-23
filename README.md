@@ -4,7 +4,7 @@ Information about the R scripts used for final assignment of the data cleaning c
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-Credit: I followed the [guide of David Hood](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/) for the course.
+Credit: I followed the [compendium by David Hood](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/) for the course and the [help guide by Luis Santino](https://drive.google.com/file/d/1TiA9Re1y16HTJ_7xUvsW1V15blzjvj03/view) for the assignment.
 
 This repository assumes that datazip file has been downloaded and unzipped in a "data" folder.
 
