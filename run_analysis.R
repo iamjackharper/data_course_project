@@ -38,13 +38,12 @@ total_data = total_data %>% select(all_of(cols_to_keep))
 
 # change the integer labels with text labels
 total_labels = activity_labels[match(total_labels[,1],activity_labels[,1]),2]
-#total_labels = as.factor(total_labels)
 
 # Combine observations and labels
-total_set = cbind(total_data,total_labels,total_subjects)
+total_set = cbind(total_subjects, total_labels, total_data)
 
 # Give descriptive names to variables
 cols_names = cols[[2]]
-names(total_set) =c(cols_names,"activitylabel","subject")
+names(total_set) =c("subject","activitylabel",cols_names)
 
 averages = total_set %>% group_by(activitylabel,subject) %>% summarize_all(mean)
